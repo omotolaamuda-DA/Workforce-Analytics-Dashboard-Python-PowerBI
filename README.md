@@ -120,22 +120,9 @@ The cleaned dataset was imported into Power BI, where an interactive dashboard w
 
 ![Executive Dashboard](Dashboard%20Screenshots/Executive%20Dashboard.png)
 
-## Department Analysis
+## Workforce Analysis Dashboard
 
-![Department Analysis](Dashboard%20Screenshots/Department%20Analysis.png)
-
-## Salary Analysis
-
-![Salary Analysis](Dashboard%20Screenshots/Salary%20Analysis.png)
-
-## Performance Dashboard
-
-![Performance Dashboard](Dashboard%20Screenshots/Performance%20Dashboard.png)
-
-## Employee Demographics
-
-![Employee Demographics](Dashboard%20Screenshots/Employee%20Demographics.png)
-
+![Workforce Analysis Dashboard](Dashboard%20Screenshots/Workforce%20Analysis%20Dashboard.png)
 
 # Key Performance Indicators
 
