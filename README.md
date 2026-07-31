@@ -1,37 +1,54 @@
-# Employee Data Cleaning & Exploratory Data Analysis with Python
+# 📊 Employee Analytics Dashboard | Python & Power BI
 
 
-## Project Overview
+# Project Overview
 
-This project demonstrates an end-to-end data cleaning and exploratory data analysis (EDA) workflow using Python.
+This project demonstrates an end-to-end employee analytics workflow, combining **Python** for data cleaning and exploratory data analysis with **Microsoft Power BI** for interactive dashboard development and business reporting.
 
-The dataset contained duplicate records, missing values, inconsistent text formatting, invalid dates, incorrect salary values, and outliers. Using Python, Pandas, NumPy, and Matplotlib, the dataset was cleaned, transformed, analyzed, and visualized to generate actionable business insights.
+The dataset contained duplicate records, missing values, inconsistent text formatting, invalid dates, incorrect salary values, and outliers. Using Python, these issues were resolved before importing the cleaned dataset into Power BI for visualization and dashboard creation.
+
+The final deliverables include a cleaned dataset, Python notebook, interactive Power BI dashboard, and a comprehensive business report with actionable recommendations.
 
 
-## Business Objectives
+# Business Objectives
 
-This project answers questions such as:
+This project answers key business questions such as:
 
 - How many employees are in each department?
 - Which department has the highest average salary?
-- Which department performs best?
+- Which departments perform best?
 - Which city has the largest workforce?
-- What data quality issues exist?
-- What recommendations can improve business performance?
+- How are salaries distributed across departments?
+- What workforce trends can management use for better decision-making?
 
 
-## Tools & Libraries
+# Tools & Technologies
+
+### Data Preparation
 
 - Python
 - Pandas
 - NumPy
+
+### Data Visualization
+
 - Matplotlib
+- Microsoft Power BI
+
+### Business Intelligence
+
+- Power Query
+- DAX
+- Interactive Dashboards
+
+### Development Environment
+
 - Jupyter Notebook
 
 
-## Dataset
+# Dataset
 
-The dataset contains employee information including:
+The employee dataset contains information including:
 
 - Employee ID
 - Name
@@ -44,9 +61,9 @@ The dataset contains employee information including:
 - Performance Score
 
 
-# Data Cleaning Process
+# Data Cleaning Process (Python)
 
-The following cleaning tasks were completed:
+The following data quality issues were addressed using Python:
 
 ✅ Removed duplicate records
 
@@ -58,23 +75,66 @@ The following cleaning tasks were completed:
 
 ✅ Corrected salary outliers
 
-✅ Converted Join Date to datetime
+✅ Converted Join Date to datetime format
 
-✅ Filled missing values using the median
+✅ Filled missing values using median
 
 ✅ Standardized capitalization
 
 ✅ Removed unnecessary spaces
 
+The cleaned dataset was then exported for analysis in Power BI.
 
-# Exploratory Data Analysis
 
-The project includes analysis of:
+# Exploratory Data Analysis (Python)
+
+Python was used to perform exploratory analysis, including:
 
 - Employees by Department
 - Average Salary by Department
 - Average Performance Score by Department
 - Employee Distribution by City
+
+These analyses informed the design of the Power BI dashboard.
+
+
+# Power BI Dashboard
+
+The cleaned dataset was imported into Power BI, where an interactive dashboard was developed to provide business stakeholders with meaningful insights.
+
+### Dashboard Features
+
+- Executive KPI Cards
+- Employees by Department
+- Average Salary Analysis
+- Performance Score Analysis
+- Employee Distribution by City
+- Interactive Slicers
+- Dynamic Filtering
+- Business KPIs
+
+
+# Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](Dashboard%20Screenshots/Executive%20Dashboard.png)
+
+## Department Analysis
+
+![Department Analysis](Dashboard%20Screenshots/Department%20Analysis.png)
+
+## Salary Analysis
+
+![Salary Analysis](Dashboard%20Screenshots/Salary%20Analysis.png)
+
+## Performance Dashboard
+
+![Performance Dashboard](Dashboard%20Screenshots/Performance%20Dashboard.png)
+
+## Employee Demographics
+
+![Employee Demographics](Dashboard%20Screenshots/Employee%20Demographics.png)
 
 
 # Key Performance Indicators
@@ -87,60 +147,65 @@ The project includes analysis of:
 | Departments | 5 |
 
 
-# Dashboard Preview
-
-### Employees by Department
-
-![Employees by Department](Dashboard%20Screenshots/Employees%20by%20Department.png)
-
-### Average Salary by Department
-
-![Average Salary](Dashboard%20Screenshots/Average%20Salary%20by%20Department.png)
-
-### Average Performance Score
-
-![Performance Score](Dashboard%20Screenshots/Average%20Performance%20Score.png)
-
-### Employee Distribution by City
-
-![City Distribution](Dashboard%20Screenshots/Employee%20Distribution%20by%20City.png)
-
-
 # Key Insights
 
-- Amsterdam contains the largest employee population.
-- Sales is the largest department.
-- IT has the highest average salary.
-- Finance records the highest average performance score.
-- Multiple data quality issues were discovered and corrected before analysis.
+- Amsterdam has the highest employee population.
+- Sales is the largest department by employee count.
+- IT records the highest average salary.
+- Finance has the highest average performance score.
+- Several data quality issues were identified and corrected before reporting.
+- Interactive dashboards enable users to analyze workforce metrics by department and city.
 
 
 # Business Recommendations
 
-- Improve HR performance through targeted development.
+- Improve HR performance through targeted employee development.
 - Review staffing levels across departments.
 - Strengthen salary benchmarking for technical roles.
-- Introduce stronger data validation rules.
+- Introduce stronger data validation rules during data collection.
 - Standardize department and city naming conventions.
+- Monitor workforce performance regularly using the Power BI dashboard.
 
 
 # Skills Demonstrated
 
+### Python
+
 - Data Cleaning
 - Data Wrangling
-- Exploratory Data Analysis (EDA)
-- Data Visualization
+- Exploratory Data Analysis
 - Pandas
 - NumPy
 - Matplotlib
-- Business Analytics
-- Data Quality Assessment
 
+### Power BI
 
-# Project Report
+- Power Query
+- Data Modeling
+- DAX
+- Dashboard Development
+- KPI Design
+- Interactive Reporting
 
-The complete report is available in the **Report** folder.
+### Business Analytics
 
+- Business Intelligence
+- Data Storytelling
+- Data Visualization
+- Business Recommendations
+
+# Business Report
+
+The repository includes a comprehensive business report covering:
+
+- Executive Summary
+- Data Cleaning Methodology
+- Exploratory Data Analysis
+- Power BI Dashboard
+- Business Insights
+- Recommendations
+
+ **[View the Full Report](Report/Employee_Analytics_Report.pdf)**
 
 # Author
 
