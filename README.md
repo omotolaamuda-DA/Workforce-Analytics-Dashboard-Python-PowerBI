@@ -192,7 +192,7 @@ The repository includes a comprehensive business report covering:
 - Business Insights
 - Recommendations
 
- **[View the Full Report](Report/Employee_Analytics_Report.pdf)**
+ **[View the Full Report](Report/Workforce_Analysis_Project_Report.pdf)**
 
 # Author
 
