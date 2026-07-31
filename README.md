@@ -1,4 +1,4 @@
-# 📊 Employee Analytics Dashboard | Python & Power BI
+# 📊 Workforce Analytics Dashboard | Python & Power BI
 
 
 # Project Overview
